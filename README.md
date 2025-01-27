@@ -24,7 +24,8 @@ Extraction des points de référence dynamiques.
 Application de l'interpolation bilinéaire pour capturer les caractéristiques des zones pertinentes.
 Calcul de l’attention bi-niveau pour combiner les informations locales et globales.
 ### Entraînement :
-Utilisation d’un dataset standard pour la classification (CIFAR-10).
+Utilisation d’un dataset standard CIFAR-10 pour la classification (ImageNet mini recommandée).
+
 Optimisation via des algorithmes tels que AdamW.
 ### Évaluation : 
 Calcul des métriques de performance comme l'accuracy et la valeur de perte .
